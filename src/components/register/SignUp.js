@@ -74,9 +74,7 @@ function SignUp() {
   return (
     <div className="bg-gray-50 min-h-screen flex flex-col items-center justify-center py-6 px-4">
       <div className="max-w-[480px] w-full p-6 sm:p-8 rounded-2xl bg-white border border-gray-200 shadow-sm">
-        <a href="javascript:void(0)"><img
-            src="https://readymadeui.com/readymadeui.svg" alt="logo" class="w-40 mb-8 mx-auto block" />
-        </a>
+    <img src="https://readymadeui.com/readymadeui.svg" alt="logo" class="w-40 mb-8 mx-auto block" />
         <h1 className="text-slate-900 text-center text-3xl font-semibold">
           Sign In
         </h1>
