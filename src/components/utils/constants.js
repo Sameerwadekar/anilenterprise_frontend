@@ -1,5 +1,5 @@
 const constants = () => {
-  const REPORTING_URL = "http://localhost:8080";
+  const REPORTING_URL = "https://oogamous-crumbable-katie.ngrok-free.dev";
   return [REPORTING_URL];
 };
 
