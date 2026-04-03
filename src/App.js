@@ -8,6 +8,7 @@ import Profile from "./components/pages/Profile";
 import AdminOrder from "./components/pages/AdminOrder";
 import { useState, useEffect } from "react";
 import AdminDashboard from "./components/pages/AdminDashboard";
+import AdminCustomer from "./components/pages/AdminCustomer";
 
 function Layout() {
   return (
@@ -266,6 +267,7 @@ function App() {
         <Route path="/admin" element={<AdminLayout />}>
           <Route  path="orders" element={<AdminOrder />} />
           <Route index path="dashboard" element={<AdminDashboard />} />
+          <Route index path="customers" element={<AdminCustomer />} />
         </Route>
 
       </Routes>
