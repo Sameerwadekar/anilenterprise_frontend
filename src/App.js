@@ -9,6 +9,7 @@ import AdminOrder from "./components/pages/AdminOrder";
 import { useState, useEffect } from "react";
 import AdminDashboard from "./components/pages/AdminDashboard";
 import AdminCustomer from "./components/pages/AdminCustomer";
+import Signin from "./components/pages/Signin";
 
 function Layout() {
   return (
@@ -256,6 +257,7 @@ function App() {
 
         {/* Public route (NO NAVBAR) */}
         <Route path="/signup" element={<SignUp />} />
+        <Route path="/login" element={<Signin />} /> 
 
         {/* Protected / Main Layout (WITH NAVBAR) */}
         <Route path="/" element={<Layout />}>
