@@ -10,6 +10,7 @@ import { useState, useEffect } from "react";
 import AdminDashboard from "./components/pages/AdminDashboard";
 import AdminCustomer from "./components/pages/AdminCustomer";
 import Signin from "./components/pages/Signin";
+import AdminProducts from "./components/pages/AdminProducts";
 
 function Layout() {
   return (
@@ -269,7 +270,8 @@ function App() {
         <Route path="/admin" element={<AdminLayout />}>
           <Route  path="orders" element={<AdminOrder />} />
           <Route index path="dashboard" element={<AdminDashboard />} />
-          <Route index path="customers" element={<AdminCustomer />} />
+          <Route  path="customers" element={<AdminCustomer />} />
+          <Route  path="products" element={<AdminProducts/>} />
         </Route>
 
       </Routes>
