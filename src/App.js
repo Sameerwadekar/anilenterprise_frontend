@@ -11,6 +11,8 @@ import AdminDashboard from "./components/pages/AdminDashboard";
 import AdminCustomer from "./components/pages/AdminCustomer";
 import Signin from "./components/pages/Signin";
 import AdminProducts from "./components/pages/AdminProducts";
+import Cart from "./components/pages/Cart";
+import Checkout from "./components/pages/Checkout";
 
 function Layout() {
   return (
@@ -266,6 +268,8 @@ function App() {
           <Route path="home" element={<Home />} />
           <Route path="contact" element={<Contact />} />
           <Route path="profile" element={<Profile />} />
+          <Route path="cart" element={<Cart />} />
+          <Route path="checkout" element={<Checkout/>} />
         </Route>
         <Route path="/admin" element={<AdminLayout />}>
           <Route  path="orders" element={<AdminOrder />} />

@@ -160,7 +160,7 @@ function ProductCard({ product, qty, onInc, onDec }) {
       {/* Image */}
       <div className="w-24 h-24 rounded-xl bg-blue-50 flex items-center justify-center overflow-hidden">
         <img
-          src={`https://oogamous-crumbable-katie.ngrok-free.dev/product/${product.id}/image`}
+          src={`http://localhost:8080/product/${product.id}/image`}
           alt={product.name}
           className="w-20 h-20 object-contain"
         />

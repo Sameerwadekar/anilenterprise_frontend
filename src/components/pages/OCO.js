@@ -385,7 +385,7 @@ export default function OCO() {
         <div className="bg-white rounded-3xl shadow-lg shadow-blue-100 border border-blue-50 p-5 flex items-center gap-4">
           <div className="w-24 h-24 rounded-2xl bg-blue-50 flex items-center justify-center flex-shrink-0 overflow-hidden">
             <img
-              src={`https://oogamous-crumbable-katie.ngrok-free.dev/product/${product.id}/image`}
+              src={`http://localhost:8080/product/${product.id}/image`}
               alt={product.name}
               className="w-20 h-20 object-contain"
             />
