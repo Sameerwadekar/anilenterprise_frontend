@@ -264,7 +264,7 @@ function App() {
 
         {/* Protected / Main Layout (WITH NAVBAR) */}
         <Route path="/" element={<Layout />}>
-          <Route index element={<OCO />} />
+          <Route path="/oco" element={<OCO />} />
           <Route path="home" element={<Home />} />
           <Route path="contact" element={<Contact />} />
           <Route path="profile" element={<Profile />} />
